@@ -1,0 +1,15 @@
+F:\MyProgram\DataBase\DataBase\bin\Debug\DataBase.exe.config
+F:\MyProgram\DataBase\DataBase\bin\Debug\DataBase.exe
+F:\MyProgram\DataBase\DataBase\bin\Debug\DataBase.pdb
+F:\MyProgram\DataBase\DataBase\bin\Debug\EntityFramework.dll
+F:\MyProgram\DataBase\DataBase\bin\Debug\EntityFramework.SqlServer.dll
+F:\MyProgram\DataBase\DataBase\bin\Debug\EntityFramework.xml
+F:\MyProgram\DataBase\DataBase\bin\Debug\EntityFramework.SqlServer.xml
+F:\MyProgram\DataBase\DataBase\obj\Debug\DataBase.Form1.resources
+F:\MyProgram\DataBase\DataBase\obj\Debug\DataBase.Properties.Resources.resources
+F:\MyProgram\DataBase\DataBase\obj\Debug\DataBase.csproj.GenerateResource.cache
+F:\MyProgram\DataBase\DataBase\obj\Debug\DataBase.csproj.CoreCompileInputs.cache
+F:\MyProgram\DataBase\DataBase\obj\Debug\DataBase.csproj.CopyComplete
+F:\MyProgram\DataBase\DataBase\obj\Debug\DataBase.exe
+F:\MyProgram\DataBase\DataBase\obj\Debug\DataBase.pdb
+F:\MyProgram\DataBase\DataBase\obj\Debug\DataBase.csprojAssemblyReference.cache
