@@ -52,14 +52,14 @@ namespace DataBase.DBConnect
             DB.SaveChanges();
         }
 
-        public bool UpdateTableSKIMA(string TableName)
-        {
-            UpdateDbEntites mytest = new UpdateDbEntites();
-            mytest.Down();
-            mytest.Up();
+        //public bool UpdateTableSKIMA(string TableName)
+        //{
+        //    UpdateDbEntites mytest = new UpdateDbEntites();
+        //    mytest.Down();
+        //    mytest.Up();
             
-            return Database.Delete(TableName);
-        }
+        //    return Database.Delete(TableName);
+        //}
         
     }
 }
