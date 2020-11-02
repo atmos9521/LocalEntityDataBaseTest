@@ -30,10 +30,10 @@ namespace DataBase
             }            
         }
 
-        AllRepository<Student> Student_Db = new AllRepository<Student>();
+        AllRepository<Student_old> Student_Db = new AllRepository<Student_old>();
         private void Create_btn_Click(object sender, EventArgs e)
         {
-            Student studend_data = new Student();
+            Student_old studend_data = new Student_old();
             int ID_number = 0;
             int.TryParse(ID_txt.Text, out ID_number);
             if (ID_number <=0)
@@ -68,7 +68,7 @@ namespace DataBase
 
         private void Update_btn_Click(object sender, EventArgs e)
         {
-            Student studend_data = new Student();
+            Student_old studend_data = new Student_old();
             int ID_number = 0;
             int.TryParse(ID_txt.Text, out ID_number);
             if (ID_number <= 0)
@@ -100,8 +100,8 @@ namespace DataBase
 
         private void Drop_btn_Click(object sender, EventArgs e)
         {
-            bool result = Student_Db.UpdateTableSKIMA("Student");
-            MessageBox.Show("result = " + result);
+            //bool result = Student_Db.UpdateTableSKIMA("Student");
+            //MessageBox.Show("result = " + result);
             
         }
     }

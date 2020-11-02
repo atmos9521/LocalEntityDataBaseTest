@@ -56,21 +56,59 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CIF_Control.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CIF_Control.Designer.cs">
+      <DependentUpon>CIF_Control.cs</DependentUpon>
+    </Compile>
     <Compile Include="DBConnect\AllRepository.cs" />
+    <Compile Include="DBConnect\CIF.cs" />
     <Compile Include="DBConnect\DbEntity.cs" />
     <Compile Include="DBConnect\Student.cs" />
     <Compile Include="DBConnect\InterfaceALLRepository.cs" />
-    <Compile Include="DBConnect\UpdateDbEntites.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202011010947336_InitialCreate.cs" />
+    <Compile Include="Migrations\202011010947336_InitialCreate.designer.cs">
+      <DependentUpon>202011010947336_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011021439232_willy.cs" />
+    <Compile Include="Migrations\202011021439232_willy.designer.cs">
+      <DependentUpon>202011021439232_willy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011021521234_second.cs" />
+    <Compile Include="Migrations\202011021521234_second.designer.cs">
+      <DependentUpon>202011021521234_second.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011021524454_third.cs" />
+    <Compile Include="Migrations\202011021524454_third.designer.cs">
+      <DependentUpon>202011021524454_third.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CIF_Control.resx">
+      <DependentUpon>CIF_Control.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011010947336_InitialCreate.resx">
+      <DependentUpon>202011010947336_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011021439232_willy.resx">
+      <DependentUpon>202011021439232_willy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011021521234_second.resx">
+      <DependentUpon>202011021521234_second.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011021524454_third.resx">
+      <DependentUpon>202011021524454_third.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
